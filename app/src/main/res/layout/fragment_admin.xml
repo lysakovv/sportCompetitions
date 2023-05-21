@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.adminpanel.AdminFragment">
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/googleregular"
+        android:text="Мероприятие"
+        android:textColor="@color/panelsBg"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/registerEvent"
+        android:layout_width="318dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/panelsBg"
+        android:fontFamily="@font/googlebold"
+        android:text="Зарегистрировать" />
+
+    <Button
+        android:id="@+id/removeEvent"
+        android:layout_width="318dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/panelsBg"
+        android:fontFamily="@font/googlebold"
+        android:text="Удалить"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/googleregular"
+        android:text="Команды"
+        android:textColor="@color/panelsBg"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/registerTeam"
+        android:layout_width="318dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/panelsBg"
+        android:fontFamily="@font/googlebold"
+        android:text="Зарегистрировать" />
+
+    <Button
+        android:id="@+id/removeTeam"
+        android:layout_width="318dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/googlebold"
+        android:text="Удалить"
+        android:backgroundTint="@color/panelsBg"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/googleregular"
+        android:text="Участники"
+        android:textColor="@color/panelsBg"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/registerUser"
+        android:layout_width="318dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/panelsBg"
+        android:fontFamily="@font/googlebold"
+        android:text="Зарегистрировать" />
+
+    <Button
+        android:id="@+id/removeUser"
+        android:layout_width="318dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/googlebold"
+        android:backgroundTint="@color/panelsBg"
+        android:text="Удалить"
+        android:visibility="visible" />
+
+</LinearLayout>

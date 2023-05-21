@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="cellBg">#888888</color>
+    <color name="topCellBg">#F3E3D3</color>
+    <color name="topCellBg2">#F3E3D3</color>
+    <color name="topCellStroke">#666666</color>
+
+    <color name="cellOddBg">#EFCEAD</color>
+    <color name="cellNotOddBg">#F3E3D3</color>
+    <color name="cellOddBgRow">#EFCEAD</color>
+    <color name="cellNotOddBgRow">#F3E3D3</color>
+    <color name="cellLeague">#9B6B43</color>
+
+    <color name="Bg">#F3E3D3</color>
+    <color name="light">#F3E3D3</color>
+    <color name="panelsBg">#9B6B43</color>
+    <color name="decline">#BD8658</color>
+    <color name="approve">#BD8658</color>
+    <color name="bgItem">#669B6B43</color>
+
+</resources>
