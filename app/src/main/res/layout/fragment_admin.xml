@@ -8,7 +8,7 @@
     android:background="@color/Bg"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".ui.adminpanel.AdminFragment">
+    tools:context=".Fragments.AdminFragment">
 
     <TextView
         android:id="@+id/title1"

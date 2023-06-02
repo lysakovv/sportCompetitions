@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/Bg"
     android:orientation="vertical"
-    tools:context=".Fragments.ChangeDataFragment">
+    tools:context=".Fragments.UserResultsFragment">
 
     <ScrollView
         android:layout_width="409dp"

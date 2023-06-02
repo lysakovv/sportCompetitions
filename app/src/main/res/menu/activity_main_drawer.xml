@@ -6,7 +6,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:title="Глобальная таблица" />
+            android:title="Общая таблица" />
 
         <item android:title="Admin">
             <menu>
@@ -20,5 +20,9 @@
         <item
             android:id="@+id/nav_changedata"
             android:title="Изменить данные" />
+
+        <item
+            android:id="@+id/nav_userresults"
+            android:title="Результаты команды" />
     </group>
 </menu>

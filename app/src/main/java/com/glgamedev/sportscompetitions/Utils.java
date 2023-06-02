@@ -6,34 +6,18 @@ import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
-import android.os.Build;
-import android.os.Environment;
 import android.os.StrictMode;
 import android.preference.PreferenceManager;
-import android.provider.Settings.Secure;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.glgamedev.sportscompetitions.ui.Components.Table.TableViewer;
+import com.glgamedev.sportscompetitions.Ui.Components.Table.TableViewer;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.net.InetAddress;
-import java.net.NetworkInterface;
-import java.net.SocketException;
-import java.net.URL;
-import java.net.UnknownHostException;
-import java.util.Collections;
 
 public class Utils {
 	public static String host = "gfx";
